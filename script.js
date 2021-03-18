@@ -1,7 +1,6 @@
 let number = 0
 
-document.getElementById('calculate').addEventListener
-('click', addition)
+document.getElementById('calculate').addEventListener('click', addition)
 
 function addition () {
   number = document.getElementById('input1').value
